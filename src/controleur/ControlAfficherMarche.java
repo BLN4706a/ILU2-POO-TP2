@@ -9,5 +9,8 @@ public class ControlAfficherMarche {
 		this.village = village;
 	}
 
-	//TODO a completer
+	// TODO a completer
+	public String[] donnerInfosMarche() {
+		return village.donnerEtatMarche(); // Supposons que cette méthode existe dans la classe Village
+	}
 }
